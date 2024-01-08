@@ -6,7 +6,7 @@ Software testing is a critical task that is essential for ensuring the quality a
 
 We hope this repository can help researchers and practitioners to get a better understanding of this emerging field. If this repository is helpful for you, please help us by citing this paper:
 
-"""
+```
 @article{Wang2023SoftwareTW,
   title={Software Testing with Large Language Model: Survey, Landscape, and Vision},
   author={Junjie Wang and Yuchao Huang and Chunyang Chen and Zhe Liu and Song Wang and Qing Wang},
@@ -15,7 +15,7 @@ We hope this repository can help researchers and practitioners to get a better u
   volume={abs/2307.07221},
   url={https://api.semanticscholar.org/CorpusID:259924919}
 }
-"""
+```
 
 
 ## News🎉
