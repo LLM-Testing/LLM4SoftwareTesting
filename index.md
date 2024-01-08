@@ -21,7 +21,7 @@ We hope this repository can help researchers and practitioners to get a better u
 ## News🎉
 This project is under development. You can hit the **STAR** and **WATCH** to follow the updates.
 
-![Image](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/1.png)
+![Image](https://awesomellmsoftwaretesting.github.io/figures/1.png)
 
 - Our LLM for mobile GUI testing paper: [*Make LLM a Testing Expert: Bringing Human-like Interaction to Mobile GUI Testing via Functionality-aware Decisions*](https://arxiv.org/abs/2310.15780) is accepted by ICSE 2024. Note that, it is a follow-up work of [*Chatting with GPT-3 for Zero-Shot Human-Like Mobile Automated GUI Testing*](https://arxiv.org/abs/2305.09434).
 - Our LLM for text input fuzzing paper: [*Testing the Limits: Unusual Text Inputs Generation for Mobile App Crash Detection with Large Language Model*](https://arxiv.org/abs/2310.15780) is accepted by ICSE 2024. 
