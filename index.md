@@ -21,6 +21,8 @@ We hope this repository can help researchers and practitioners to get a better u
 ## News🎉
 This project is under development. You can hit the **STAR** and **WATCH** to follow the updates.
 
+![Image](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/1.png)
+
 - Our LLM for mobile GUI testing paper: [*Make LLM a Testing Expert: Bringing Human-like Interaction to Mobile GUI Testing via Functionality-aware Decisions*](https://arxiv.org/abs/2310.15780) is accepted by ICSE 2024. Note that, it is a follow-up work of [*Chatting with GPT-3 for Zero-Shot Human-Like Mobile Automated GUI Testing*](https://arxiv.org/abs/2305.09434).
 - Our LLM for text input fuzzing paper: [*Testing the Limits: Unusual Text Inputs Generation for Mobile App Crash Detection with Large Language Model*](https://arxiv.org/abs/2310.15780) is accepted by ICSE 2024. 
 - Our LLM for crash reproduction paper: [*CrashTranslator: Automatically Reproducing Mobile Application Crashes Directly from Stack Trace*](https://arxiv.org/abs/2310.07128) is accepted by ICSE 2024.
@@ -30,9 +32,14 @@ This project is under development. You can hit the **STAR** and **WATCH** to fol
 ## Overview🔭
 ### From software testing perspective
 
+![Image](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/2.png)
+
 We find that LLMs have proven to be efficient in the mid to late stages of the software testing lifecycle. During the mid-phase of software testing, LLMs have been successfully applied for various test case preparation tasks, including the generation of unit test cases, test oracle generation, and system test input generation. In later phases, such as the bug fix phase and the preparation of test reports/bug reports, LLMs have been utilized for tasks like bug analysis, debugging, and repair.
 
 ### From LLM perspective
+
+![Image](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/3.png)
+
 In our collected studies, the LLM most frequently employed is ChatGPT, widely recognized and popular for its exceptional performance across various tasks. The second most commonly used LLM is Codex, trained on an extensive code corpus, aiding researchers in coding-related tasks. Ranked third is CodeT5, an open-source LLM capable of conducting pre-training and fine-tuning with domain-specific data, thereby achieving better performance.
 
 
