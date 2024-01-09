@@ -46,9 +46,9 @@ In our collected studies, the LLM most frequently employed is ChatGPT, widely re
 ## Table of Contents📊
 
 ## Related Surveys🗎
-- Large Language Models for Software Engineering A Systematic Literature Review
-- Large Language Models for Software Engineering Survey and Open Problems
-- Large Language Models Meet NL2Code A Survey
+- [Large Language Models for Software Engineering A Systematic Literature Review](https://arxiv.org/abs/2308.10620) (in Arxiv)
+- [Large Language Models for Software Engineering Survey and Open Problems](https://arxiv.org/abs/2310.03533) (in Arxiv)
+- [Large Language Models Meet NL2Code A Survey](https://aclanthology.org/2023.acl-long.411/) (in ACL 2023)
 
 ## Unit test case generation
 - [Unit Test Case Generation with Transformers and Focal Context](https://arxiv.org/abs/2009.05617) (in Arxiv)
@@ -126,7 +126,7 @@ In our collected studies, the LLM most frequently employed is ChatGPT, widely re
 - [Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting](https://ieeexplore.ieee.org/document/10298538/authors) (in ASE 2023)
 - [Teaching Large Language Models to Self-Debug](https://arxiv.org/abs/2304.05128) (in Arxiv)
 - [A study on Prompt Design, Advantages and Limitations of ChatGPT for Deep Learning Program Repair](https://arxiv.org/abs/2304.08191) (in Arxiv)
-ss
+
 ## Program repair
 - [Using Transfer Learning for Code-Related Tasks](https://dl.acm.org/doi/10.1109/TSE.2022.3183297) (in TSE 2022)
 - [Retrieval-Based Prompt Selection for Code-Related Few-Shot Learning](https://ieeexplore.ieee.org/abstract/document/10172590) (in ICSE 2023)
