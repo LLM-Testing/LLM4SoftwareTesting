@@ -4,5 +4,5 @@ plugins:
 # theme: jekyll-theme-minimal
 # theme: jekyll-theme-cayman@v0.2.0
 title: Awesome LLM Software Testing
-description: test
+description: A collection of papers and resources about the utilization of large language models (LLMs) in software testing.
 show_downloads: false

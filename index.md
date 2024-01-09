@@ -1,7 +1,5 @@
 # Awesome-LLM-SoftwareTesting
 
-A collection of papers and resources about the utilization of large language models (LLMs) in software testing.
-
 Software testing is a critical task that is essential for ensuring the quality and reliability of software products. As software systems become increasingly complex, new and more effective software testing techniques are needed. Recently, large language models (LLMs) have emerged as a breakthrough technology in natural language processing and artificial intelligence. These models are capable of performing various coding-related tasks, including code generation and code recommendation. Therefore, the use of LLMs in software testing is expected to yield significant improvements. On one hand, software testing involves tasks such as unit test generation that require code understanding and generation. On the other hand, LLMs can generate diverse test inputs to ensure comprehensive coverage of the software being tested. In this repository, we present a comprehensive review of the utilization of LLMs in software testing. We have collected 102 relevant papers and conducted a thorough analysis from both software testing and LLMs perspectives, as summarized in Figure 1.
 
 We hope this repository can help researchers and practitioners to get a better understanding of this emerging field. If this repository is helpful for you, please help us by citing this paper:
