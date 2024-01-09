@@ -15,6 +15,28 @@ We hope this repository can help researchers and practitioners to get a better u
 }
 ```
 
+## Table of Contents
+- [Awesome-LLM-SoftwareTesting](#awesome-llm-kg)
+  - [News](#news)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Related Surveys](#related-surveys)
+  - [KG-enhanced LLMs](#kg-enhanced-llms)
+    - [KG-enhanced LLM Pre-training](#kg-enhanced-llm-pre-training)
+    - [KG-enhanced LLM Inference](#kg-enhanced-llm-inference)
+    - [KG-enhanced LLM Interpretability](#kg-enhanced-llm-interpretability)
+  - [LLM-augmented KGs](#llm-augmented-kgs)
+    - [LLM-augmented KG Embedding](#llm-augmented-kg-embedding)
+    - [LLM-augmented KG Completion](#llm-augmented-kg-completion)
+    - [LLM-augmented KG-to-Text Generation](#llm-augmented-kg-to-text-generation)
+    - [LLM-augmented KG Question Answering](#llm-augmented-kg-question-answering)
+  - [Synergized LLMs + KGs](#synergized-llms--kgs)
+    - [Knowledge Representation](#knowledge-representation)
+    - [Reasoning](#reasoning)
+  - [Applications](#applications)
+    - [Recommendation](#recommendation)
+    - [Fault Analysis](#fault-analysis)
+
 
 ## News🎉
 This project is under development. You can hit the **STAR** and **WATCH** to follow the updates.
