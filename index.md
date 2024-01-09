@@ -2,6 +2,8 @@
 
 Software testing is a critical task that is essential for ensuring the quality and reliability of software products. As software systems become increasingly complex, new and more effective software testing techniques are needed. Recently, large language models (LLMs) have emerged as a breakthrough technology in natural language processing and artificial intelligence. These models are capable of performing various coding-related tasks, including code generation and code recommendation. Therefore, the use of LLMs in software testing is expected to yield significant improvements. On one hand, software testing involves tasks such as unit test generation that require code understanding and generation. On the other hand, LLMs can generate diverse test inputs to ensure comprehensive coverage of the software being tested. In this repository, we present a comprehensive review of the utilization of LLMs in software testing. We have collected 102 relevant papers and conducted a thorough analysis from both software testing and LLMs perspectives, as summarized in Figure 1.
 
+![Figure 1. Structure of the contents in this paper](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/1.png)
+
 We hope this repository can help researchers and practitioners to get a better understanding of this emerging field. If this repository is helpful for you, please help us by citing this paper:
 
 ```
@@ -15,33 +17,22 @@ We hope this repository can help researchers and practitioners to get a better u
 }
 ```
 
-## Table of Contents
-- [Awesome-LLM-SoftwareTesting](#awesome-llm-kg)
+## Table of Contents📇
+- [Awesome-LLM-SoftwareTesting](#awesome-llm-softwaretesting)
   - [News](#news)
   - [Overview](#overview)
-  - [Table of Contents](#table-of-contents)
+    - [From software testing perspective](#from-software-testing-perspective)
+    - [From LLM perspective](#from-llm-perspective)
   - [Related Surveys](#related-surveys)
-  - [KG-enhanced LLMs](#kg-enhanced-llms)
-    - [KG-enhanced LLM Pre-training](#kg-enhanced-llm-pre-training)
-    - [KG-enhanced LLM Inference](#kg-enhanced-llm-inference)
-    - [KG-enhanced LLM Interpretability](#kg-enhanced-llm-interpretability)
-  - [LLM-augmented KGs](#llm-augmented-kgs)
-    - [LLM-augmented KG Embedding](#llm-augmented-kg-embedding)
-    - [LLM-augmented KG Completion](#llm-augmented-kg-completion)
-    - [LLM-augmented KG-to-Text Generation](#llm-augmented-kg-to-text-generation)
-    - [LLM-augmented KG Question Answering](#llm-augmented-kg-question-answering)
-  - [Synergized LLMs + KGs](#synergized-llms--kgs)
-    - [Knowledge Representation](#knowledge-representation)
-    - [Reasoning](#reasoning)
-  - [Applications](#applications)
-    - [Recommendation](#recommendation)
-    - [Fault Analysis](#fault-analysis)
-
+  - [Unit test case generation](#unit-test-case-generation)
+  - [Test oracle generation](#test-oracle-generation)
+  - [System test input generation](#system-test-input-generation)
+  - [Bug analysis](#bug-analysis)
+  - [Debug](#debug)
+  - [Program repair](#program-repair)
 
 ## News🎉
 This project is under development. You can hit the **STAR** and **WATCH** to follow the updates.
-
-![Figure 1. Structure of the contents in this paper](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/1.png)
 
 - Our LLM for mobile GUI testing paper: [*Make LLM a Testing Expert: Bringing Human-like Interaction to Mobile GUI Testing via Functionality-aware Decisions*](https://arxiv.org/abs/2310.15780) is accepted by ICSE 2024. Note that, it is a follow-up work of [*Chatting with GPT-3 for Zero-Shot Human-Like Mobile Automated GUI Testing*](https://arxiv.org/abs/2305.09434).
 - Our LLM for text input fuzzing paper: [*Testing the Limits: Unusual Text Inputs Generation for Mobile App Crash Detection with Large Language Model*](https://arxiv.org/abs/2310.15780) is accepted by ICSE 2024. 
@@ -50,6 +41,7 @@ This project is under development. You can hit the **STAR** and **WATCH** to fol
 - Our roadmap paper：[*Software Testing with Large Language Models: Survey, Landscape, and Vision*](https://arxiv.org/abs/2307.07221) is now public.
 
 ## Overview🔭
+
 ### From software testing perspective
 
 ![Figure 2. Distribution of testing tasks with LLMs](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/2.png)
@@ -62,8 +54,6 @@ We find that LLMs have proven to be efficient in the mid to late stages of the s
 
 In our collected studies, the LLM most frequently employed is ChatGPT, widely recognized and popular for its exceptional performance across various tasks. The second most commonly used LLM is Codex, trained on an extensive code corpus, aiding researchers in coding-related tasks. Ranked third is CodeT5, an open-source LLM capable of conducting pre-training and fine-tuning with domain-specific data, thereby achieving better performance.
 
-
-## Table of Contents📊
 
 ## Related Surveys🗎
 - [Large Language Models for Software Engineering A Systematic Literature Review](https://arxiv.org/abs/2308.10620) (in Arxiv)
