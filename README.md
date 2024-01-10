@@ -52,7 +52,10 @@ We find that LLMs have proven to be efficient in the mid to late stages of the s
 
 ### From LLM perspective
 
-![Figure 3. LLMs used in the collected papers](https://raw.githubusercontent.com/LLM-Testing/llm-testing.github.io/main/figures/3.png#pic_center)
+<div align=center>
+    <img src="https://raw.githubusercontent.com/LLM-Testing/llm-testing.github.io/main/figures/3.png"/>
+</div>
+
 
 In our collected studies, the LLM most frequently employed is ChatGPT, widely recognized and popular for its exceptional performance across various tasks. The second most commonly used LLM is Codex, trained on an extensive code corpus, aiding researchers in coding-related tasks. Ranked third is CodeT5, an open-source LLM capable of conducting pre-training and fine-tuning with domain-specific data, thereby achieving better performance.
 
