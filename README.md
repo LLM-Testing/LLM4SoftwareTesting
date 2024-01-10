@@ -4,7 +4,7 @@ A collection of papers and resources about the utilization of large language mod
 
 Software testing is a critical task that is essential for ensuring the quality and reliability of software products. As software systems become increasingly complex, new and more effective software testing techniques are needed. Recently, large language models (LLMs) have emerged as a breakthrough technology in natural language processing and artificial intelligence. These models are capable of performing various coding-related tasks, including code generation and code recommendation. Therefore, the use of LLMs in software testing is expected to yield significant improvements. On one hand, software testing involves tasks such as unit test generation that require code understanding and generation. On the other hand, LLMs can generate diverse test inputs to ensure comprehensive coverage of the software being tested. In this repository, we present a comprehensive review of the utilization of LLMs in software testing. We have collected 102 relevant papers and conducted a thorough analysis from both software testing and LLMs perspectives, as summarized in Figure 1.
 
-![Figure 1. Structure of the contents in this paper](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/1.png)
+![Figure 1. Structure of the contents in this paper](https://raw.githubusercontent.com/LLM-Testing/llm-testing.github.io/main/figures/1.png)
 
 We hope this repository can help researchers and practitioners to get a better understanding of this emerging field. If this repository is helpful for you, please help us by citing this paper:
 
@@ -46,16 +46,23 @@ This project is under development. You can hit the **STAR** and **WATCH** to fol
 
 ### From software testing perspective
 
-![Figure 2. Distribution of testing tasks with LLMs](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/2.png)
+![Figure 2. Distribution of testing tasks with LLMs](https://raw.githubusercontent.com/LLM-Testing/llm-testing.github.io/main/figures/2.png)
 
 We find that LLMs have proven to be efficient in the mid to late stages of the software testing lifecycle. During the mid-phase of software testing, LLMs have been successfully applied for various test case preparation tasks, including the generation of unit test cases, test oracle generation, and system test input generation. In later phases, such as the bug fix phase and the preparation of test reports/bug reports, LLMs have been utilized for tasks like bug analysis, debugging, and repair.
 
 ### From LLM perspective
 
-![Figure 3. LLMs used in the collected papers](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/3.png)
+![Figure 3. LLMs used in the collected papers](https://raw.githubusercontent.com/LLM-Testing/llm-testing.github.io/main/figures/3.png#pic_center)
 
 In our collected studies, the LLM most frequently employed is ChatGPT, widely recognized and popular for its exceptional performance across various tasks. The second most commonly used LLM is Codex, trained on an extensive code corpus, aiding researchers in coding-related tasks. Ranked third is CodeT5, an open-source LLM capable of conducting pre-training and fine-tuning with domain-specific data, thereby achieving better performance.
 
+![Figure 4. Distribution about how LLM is used (prompt engineering)](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/4.png)
+
+In our collected studies, 38 studies utilize the LLMs through pre-training or fine-tuning schema, while 64 studies employ the [prompt engineering](https://www.promptingguide.ai/) to communicate with LLMs to steer its behavior for desired outcomes without updating the model weights. Among them, 51 studies involve [zero-shot learning](https://www.promptingguide.ai/techniques/zeroshot), and 25 studies involve [few-shot learning](https://www.promptingguide.ai/techniques/fewshot). There are also studies involving the [chain-of-thought](https://www.promptingguide.ai/techniques/cot) (7 studies), [self-consistency](https://www.promptingguide.ai/techniques/consistency) (1 study), and [automatic prompt](https://www.promptingguide.ai/techniques/ape) (1 study).
+
+![Figure 5. Distribution about other techniques incorporated with LLMs](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/5.png)
+
+In our collected studies, 67 of them utilize LLMs to address the entire testing task, while 35 studies incorporate additional techniques. These techniques include mutation testing, differential testing, syntactic checking, program analysis, statistical analysis, etc. .
 
 ## Related Surveys🗎
 - [Large Language Models for Software Engineering A Systematic Literature Review](https://arxiv.org/abs/2308.10620) (in Arxiv)
