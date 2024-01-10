@@ -50,7 +50,7 @@ We find that LLMs have proven to be efficient in the mid to late stages of the s
 
 ### From LLM perspective
 
-<div style="align: center">
+<div align=center>
     <img src="https://raw.githubusercontent.com/LLM-Testing/llm-testing.github.io/main/figures/3.png"/>
 </div>
 
