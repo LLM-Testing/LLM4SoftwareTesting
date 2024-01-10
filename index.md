@@ -50,9 +50,19 @@ We find that LLMs have proven to be efficient in the mid to late stages of the s
 
 ### From LLM perspective
 
-![Figure 3. LLMs used in the collected papers](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/3.png)
+<div style="align: center">
+    <img src="https://raw.githubusercontent.com/LLM-Testing/llm-testing.github.io/main/figures/3.png"/>
+</div>
 
 In our collected studies, the LLM most frequently employed is ChatGPT, widely recognized and popular for its exceptional performance across various tasks. The second most commonly used LLM is Codex, trained on an extensive code corpus, aiding researchers in coding-related tasks. Ranked third is CodeT5, an open-source LLM capable of conducting pre-training and fine-tuning with domain-specific data, thereby achieving better performance.
+
+![Figure 4. Distribution about how LLM is used (prompt engineering)](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/4.png)
+
+In our collected studies, 38 studies utilize the LLMs through pre-training or fine-tuning schema, while 64 studies employ the [prompt engineering](https://www.promptingguide.ai/) to communicate with LLMs to steer its behavior for desired outcomes without updating the model weights. Among them, 51 studies involve [zero-shot learning](https://www.promptingguide.ai/techniques/zeroshot), and 25 studies involve [few-shot learning](https://www.promptingguide.ai/techniques/fewshot). There are also studies involving the [chain-of-thought](https://www.promptingguide.ai/techniques/cot) (7 studies), [self-consistency](https://www.promptingguide.ai/techniques/consistency) (1 study), and [automatic prompt](https://www.promptingguide.ai/techniques/ape) (1 study).
+
+![Figure 5. Distribution about other techniques incorporated with LLMs](https://raw.githubusercontent.com/AwesomeLLMSoftwareTesting/awesomellmsoftwaretesting.github.io/main/figures/5.png)
+
+In our collected studies, 67 of them utilize LLMs to address the entire testing task, while 35 studies incorporate additional techniques. These techniques include mutation testing, differential testing, syntactic checking, program analysis, statistical analysis, and others.
 
 
 ## Related Surveys🗎
