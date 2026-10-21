@@ -115,6 +115,7 @@ In our collected studies, 67 of them utilize LLMs to address the entire testing 
 - [Large Language Models are Zero Shot Fuzzers: Fuzzing Deep Learning Libraries via Large Language Models](https://dl.acm.org/doi/abs/10.1145/3597926.3598067) (in ISSTA 2023)
 - [Large Language Models for Fuzzing Parsers (Registered Report)](https://dl.acm.org/doi/10.1145/3605157.3605173) (in FUZZING 2023)
 - [LLM for Test Script Generation and Migration: Challenges, Capabilities, and Opportunities](https://arxiv.org/abs/2309.13574) (in Arxiv)
+- [LLM Self-Healing of Web Locators as Assisted Triage: An Adversarial Benchmark, Deployment Lessons, and an Unconfirmed Cross-Layer Observability Blueprint](https://doi.org/10.1016/j.jss.2026.113157) (in JSS 2026)
 - [Make LLM a Testing Expert: Bringing Human-like Interaction to Mobile GUI Testing via Functionality-aware Decisions](https://arxiv.org/abs/2310.15780) (in ICSE 2024)
 - [PentestGPT: An LLM-empowered Automatic Penetration Testing Tool](https://arxiv.org/abs/2308.06782) (in Arxiv)
 - [SMT Solver Validation Empowered by Large Pre-Trained Language Models](https://ieeexplore.ieee.org/document/10298442/) (in ASE 2023)
